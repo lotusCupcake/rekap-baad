@@ -106,7 +106,14 @@
                                             </thead>
                                             <tbody>
                                                 <?php $no = 1;
+                                                $lk = 0;
+                                                $pr = 0;
                                                 foreach ($dataResult as $row) : ?>
+                                                    <?php if ($row->gender == 'Laki-Laki') : ?>
+                                                        <?php $lk++ ?>
+                                                    <?php elseif ($row->gender == 'Perempuan') : ?>
+                                                        <?php $pr++ ?>
+                                                    <?php endif ?>
                                                     <tr>
                                                         <td style="text-align: center;"><?= $no++; ?></td>
                                                         <td><?= $row->name; ?></td>
@@ -116,6 +123,8 @@
                                             </tbody>
                                         </table>
                                     </div>
+                                    <p><strong>Total</strong> Laki-laki : <?= $lk; ?></p>
+                                    <p><strong>Total</strong> Perempuan : <?= $pr; ?></p>
                                 </div>
                             </div>
                         <?php endif ?>
