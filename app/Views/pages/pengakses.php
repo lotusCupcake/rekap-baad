@@ -28,6 +28,7 @@
                 <?php if ($validation->hasError('prodi')) : ?>
                     <?= view('layout/templateAlert', ['msg' => ['danger', "<strong>Failed ! </strong>" . $validation->getError('prodi')]]); ?>
                 <?php endif; ?>
+                <?= view('layout/templateAlert', ['msg' => ['info', "<strong>Info ! </strong>Jika Ingin Menampilkan <strong>Mahasiswa Luar</strong> Pilih <strong>Prodi Mahasiswa Luar</strong> Pada Prodi"]]); ?>
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <form autocomplete="off" class="form-horizontal" action="/pengakses/proses" method="POST">
