@@ -1,226 +1,236 @@
-[{
-        "id": "1",
-        "nama": "Home",
-        "parent": "0",
-        "level": "title",
-        "status": true,
-        "icon": "",
-        "pages": "#"
-    },
-    {
-        "id": "2",
-        "nama": "Laporan Penmaru",
-        "parent": "0",
-        "level": "title",
-        "status": true,
-        "icon": "",
-        "pages": ""
-    },
-    {
-        "id": "3",
-        "nama": "Dashboard",
-        "parent": "1",
-        "level": "child",
-        "status": true,
-        "icon": "fa fa-home",
-        "pages": "/home"
-    },
-    {
-        "id": "4",
-        "nama": "Data Pendaftar",
-        "parent": "2",
-        "level": "parent",
-        "status": true,
-        "icon": "fa fa-users",
-        "pages": ""
-    },
-    {
-        "id": "13",
-        "nama": "Per Angkatan",
-        "parent": "4",
-        "level": "child",
-        "status": true,
-        "icon": "",
-        "pages": "/pendaftar"
-    },
-    {
-        "id": "5",
-        "nama": "Data Calon Mahasiswa",
-        "parent": "2",
-        "level": "parent",
-        "status": true,
-        "icon": "fa fa-graduation-cap",
-        "pages": ""
-    },
-    {
-        "id": "14",
-        "nama": "Per Angkatan",
-        "parent": "5",
-        "level": "child",
-        "status": true,
-        "icon": "",
-        "pages": "/cama"
-    },
-    {
-        "id": "5",
-        "nama": "Data Cama CBT",
-        "parent": "2",
-        "level": "child",
-        "status": true,
-        "icon": "fa fa-user",
-        "pages": "/camaCbt"
-    },
-    {
-        "id": "11",
-        "nama": "Data Registrasi Ulang",
-        "parent": "2",
-        "level": "parent",
-        "status": true,
-        "icon": "fa fa-external-link",
-        "pages": ""
-    },
-    {
-        "id": "15",
-        "nama": "Per Angkatan",
-        "parent": "11",
-        "level": "child",
-        "status": true,
-        "icon": "",
-        "pages": "/regulang"
-    },
-    {
-        "id": "12",
-        "nama": "Laporan Mahasiswa",
-        "parent": "0",
-        "level": "title",
-        "status": true,
-        "icon": "",
-        "pages": ""
-    },
-    {
-        "id": "16",
-        "nama": "Data Mahasiswa",
-        "parent": "12",
-        "level": "parent",
-        "status": true,
-        "icon": "fa fa-user",
-        "pages": ""
-    },
-    {
-        "id": "17",
-        "nama": "Detail Mahasiswa Aktif",
-        "parent": "16",
-        "level": "child",
-        "status": true,
-        "icon": "",
-        "pages": "/detailMhs"
-    },
-    {
-        "id": "18",
-        "nama": "Total Mahasiswa Aktif",
-        "parent": "16",
-        "level": "child",
-        "status": true,
-        "icon": "",
-        "pages": "/totalMhs"
-    },
-    {
-        "id": "6",
-        "nama": "Data KRS Dan Nilai",
-        "parent": "12",
-        "level": "parent",
-        "status": true,
-        "icon": "fa fa-pencil",
-        "pages": ""
-    },
-    {
-        "id": "7",
-        "nama": "Data Feeder",
-        "parent": "12",
-        "level": "parent",
-        "status": true,
-        "icon": "fa fa-database",
-        "pages": ""
-    },
-    {
-        "id": "17",
-        "nama": "Per Angkatan",
-        "parent": "7",
-        "level": "child",
-        "status": true,
-        "icon": "",
-        "pages": "/feeder"
-    },
-    {
-        "id": "9",
-        "nama": "KRS Mahasiswa",
-        "parent": "6",
-        "level": "child",
-        "status": true,
-        "icon": "",
-        "pages": "/krs"
-    },
-    {
-        "id": "10",
-        "nama": "KHS Mahasiswa",
-        "parent": "6",
-        "level": "child",
-        "status": true,
-        "icon": "",
-        "pages": "/khs"
-    },
-    {
-        "id": "16",
-        "nama": "IPK Mahasiswa",
-        "parent": "6",
-        "level": "child",
-        "status": true,
-        "icon": "",
-        "pages": "/ipk"
-    },
-    {
-        "id": "19",
-        "nama": "Elearning",
-        "parent": "0",
-        "level": "title",
-        "status": true,
-        "icon": "",
-        "pages": ""
-    },
-    {
-        "id": "22",
-        "nama": "Mahasiswa",
-        "parent": "19",
-        "level": "child",
-        "status": true,
-        "icon": "fa fa-user",
-        "pages": "/mhs"
-    },
-    {
-        "id": "21",
-        "nama": "Mata Kuliah",
-        "parent": "19",
-        "level": "child",
-        "status": true,
-        "icon": "glyphicon glyphicon-book",
-        "pages": "/matkul"
-    },
-    {
-        "id": "20",
-        "nama": "Penugasan Dosen",
-        "parent": "19",
-        "level": "child",
-        "status": true,
-        "icon": "fa fa-user-md",
-        "pages": "/dosen"
-    },
-    {
-        "id": "23",
-        "nama": "Keaktifan Dosen",
-        "parent": "19",
-        "level": "child",
-        "status": true,
-        "icon": "fa fa-check-circle",
-        "pages": "/aktifDosen"
-    }
+[
+  {
+    "id": "1",
+    "nama": "Home",
+    "parent": "0",
+    "level": "title",
+    "status": true,
+    "icon": "",
+    "pages": "#"
+  },
+  {
+    "id": "2",
+    "nama": "Laporan Penmaru",
+    "parent": "0",
+    "level": "title",
+    "status": true,
+    "icon": "",
+    "pages": ""
+  },
+  {
+    "id": "3",
+    "nama": "Dashboard",
+    "parent": "1",
+    "level": "child",
+    "status": true,
+    "icon": "fa fa-home",
+    "pages": "/home"
+  },
+  {
+    "id": "4",
+    "nama": "Data Pendaftar",
+    "parent": "2",
+    "level": "parent",
+    "status": true,
+    "icon": "fa fa-users",
+    "pages": ""
+  },
+  {
+    "id": "13",
+    "nama": "Per Angkatan",
+    "parent": "4",
+    "level": "child",
+    "status": true,
+    "icon": "",
+    "pages": "/pendaftar"
+  },
+  {
+    "id": "5",
+    "nama": "Data Calon Mahasiswa",
+    "parent": "2",
+    "level": "parent",
+    "status": true,
+    "icon": "fa fa-graduation-cap",
+    "pages": ""
+  },
+  {
+    "id": "14",
+    "nama": "Per Angkatan",
+    "parent": "5",
+    "level": "child",
+    "status": true,
+    "icon": "",
+    "pages": "/cama"
+  },
+  {
+    "id": "5",
+    "nama": "Data Cama CBT",
+    "parent": "2",
+    "level": "child",
+    "status": true,
+    "icon": "fa fa-user",
+    "pages": "/camaCbt"
+  },
+  {
+    "id": "11",
+    "nama": "Data Registrasi Ulang",
+    "parent": "2",
+    "level": "parent",
+    "status": true,
+    "icon": "fa fa-external-link",
+    "pages": ""
+  },
+  {
+    "id": "15",
+    "nama": "Per Angkatan",
+    "parent": "11",
+    "level": "child",
+    "status": true,
+    "icon": "",
+    "pages": "/regulang"
+  },
+  {
+    "id": "12",
+    "nama": "Laporan Mahasiswa",
+    "parent": "0",
+    "level": "title",
+    "status": true,
+    "icon": "",
+    "pages": ""
+  },
+  {
+    "id": "16",
+    "nama": "Data Mahasiswa",
+    "parent": "12",
+    "level": "parent",
+    "status": true,
+    "icon": "fa fa-user",
+    "pages": ""
+  },
+  {
+    "id": "17",
+    "nama": "Detail Mahasiswa Aktif",
+    "parent": "16",
+    "level": "child",
+    "status": true,
+    "icon": "",
+    "pages": "/detailMhs"
+  },
+  {
+    "id": "18",
+    "nama": "Total Mahasiswa Aktif",
+    "parent": "16",
+    "level": "child",
+    "status": true,
+    "icon": "",
+    "pages": "/totalMhs"
+  },
+  {
+    "id": "6",
+    "nama": "Data KRS Dan Nilai",
+    "parent": "12",
+    "level": "parent",
+    "status": true,
+    "icon": "fa fa-pencil",
+    "pages": ""
+  },
+  {
+    "id": "7",
+    "nama": "Data Feeder",
+    "parent": "12",
+    "level": "parent",
+    "status": true,
+    "icon": "fa fa-database",
+    "pages": ""
+  },
+  {
+    "id": "17",
+    "nama": "Per Angkatan",
+    "parent": "7",
+    "level": "child",
+    "status": true,
+    "icon": "",
+    "pages": "/feeder"
+  },
+  {
+    "id": "9",
+    "nama": "KRS Mahasiswa",
+    "parent": "6",
+    "level": "child",
+    "status": true,
+    "icon": "",
+    "pages": "/krs"
+  },
+  {
+    "id": "10",
+    "nama": "KHS Mahasiswa",
+    "parent": "6",
+    "level": "child",
+    "status": true,
+    "icon": "",
+    "pages": "/khs"
+  },
+  {
+    "id": "16",
+    "nama": "IPK Mahasiswa",
+    "parent": "6",
+    "level": "child",
+    "status": true,
+    "icon": "",
+    "pages": "/ipk"
+  },
+  {
+    "id": "19",
+    "nama": "Elearning",
+    "parent": "0",
+    "level": "title",
+    "status": true,
+    "icon": "",
+    "pages": ""
+  },
+  {
+    "id": "22",
+    "nama": "Mahasiswa",
+    "parent": "19",
+    "level": "child",
+    "status": true,
+    "icon": "fa fa-user",
+    "pages": "/mhs"
+  },
+  {
+    "id": "21",
+    "nama": "Mata Kuliah",
+    "parent": "19",
+    "level": "child",
+    "status": true,
+    "icon": "glyphicon glyphicon-book",
+    "pages": "/matkul"
+  },
+  {
+    "id": "20",
+    "nama": "Penugasan Dosen",
+    "parent": "19",
+    "level": "child",
+    "status": true,
+    "icon": "fa fa-user-md",
+    "pages": "/dosen"
+  },
+  {
+    "id": "23",
+    "nama": "Keaktifan Dosen",
+    "parent": "19",
+    "level": "child",
+    "status": true,
+    "icon": "fa fa-check-circle",
+    "pages": "/aktifDosen"
+  },
+  {
+    "id": "24",
+    "nama": "Jumlah Pengakses",
+    "parent": "19",
+    "level": "child",
+    "status": true,
+    "icon": "fa fa-user",
+    "pages": "/pengakses"
+  }
 ]

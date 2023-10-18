@@ -113,6 +113,11 @@ $routes->get('/aktifDosen/(:any)', 'AktifDosen::index');
 $routes->post('/aktifDosen/proses', 'AktifDosen::proses');
 $routes->post('/aktifDosen/cetak', 'AktifDosen::exportAktifDosen');
 
+//data pengakses
+$routes->get('/pengakses/(:any)', 'Pengakses::index');
+$routes->post('/pengakses/proses', 'Pengakses::proses');
+$routes->post('/pengakses/cetak', 'Pengakses::exportPengakses');
+
 
 
 /*
